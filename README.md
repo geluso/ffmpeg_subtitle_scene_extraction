@@ -9,8 +9,59 @@ Note that this program does not actually execute any ffmpeg commands, it only
 prints commands that should be executed. This makes it easier to verify that
 the commands are sane before any expensive extraction operations are executed.
 
+Why?
+----
+I'm inspired by the old [Arnold Schwarzenegger soundboards](http://www.ebaumsworld.com/soundboards/play/1879/)
+I heard people use in [prank phone calls](http://www.youtube.com/watch?v=BwSKulVBaQg).
+
+I like the idea of doing what was done with soundboards with movies. I imagine
+friends gathering around a projector taking turns playing the role of a character
+by puppeteering their cinematic appearances. That, or joining public video chats,
+or chat roulletes, and broadcasting a puppeted feed of the character instead of a
+self. So this program is a first step toward those ends.
+
+An Aside: Intentional Mistakes in Cartography
+-----------------------------------
+One interesting thing I found while writing this program was a "typo" in one of
+the Moonrise Kingdom subtitle files. I've included a variety of the subtitle
+files in this repo for reference.
+
+There's a strange character that appears in subtitle sequence numbers 15 and 89.
+The character becomes obvious when diffing two subtitle files:
+
+    diff subtitles/moonrise.srt subtitles/moonrise_marked.srt
+    71c76
+    < The flutes, the oboes,
+    ---
+    > The ﬂutes, the oboes,
+    415c420
+    < two bedrolls, plus an air rifle.
+    ---
+    > two bedrolls, plus an air riﬂe.
+
+The characters "fl" in moonrise.srt are replaced by a strange unicode character "ﬂ"
+in moonrise_marked.srt. These strange unicode characters are known to appear in
+scammy URLs trying to mimic legitimate websites, "flaypal.com" vs "ﬂaypal.com,"
+but why should they appear in a subtitles file? The answer, I beleive, lies in
+cartography.
+
+The word on the street is that ancient, and medieval, and renaissance, and colonial,
+and modern, and even digital map makers would sometimes intentionally include tiny
+errors in their maps to protect their copyright. If these errors ever appeared in
+another unauthorized map then they could make the case that the other map copied
+all of their work, including the bogus errors, from their own maps. Though I know
+of no formal word to describe these errors (though I'd bet German has a name for
+them) I'm convinced whoever originally created the subtitle file inserted this error
+intentionally to see how far their work would spread. The pirate movie subtitle
+community surely must be as proud and territorial as any cartography community.
+
+I only noticed and discovered this error because I wasn't originally parsing the
+file with the proper text encoding and the program would mysteriously crash when
+it encountered this character. Lesson learned: don't worry about encoding until
+you have to! You may reveal wonderful conspiracies!
+
 File Input/Output
-=================
+-----------------
 This program should be executed as follows:
 
     python subtitles.py [movie_file] [subtitle_file]
@@ -43,7 +94,7 @@ appearing after them and will all be named "zzz," as if the actors are taking na
 between dialogue.
 
 SubRip Format
-===============
+-------------
 This program expects the subtitle file to be in the SubRup format. What follows
 is my own explanation of the file format, but a more exact definition may be found
 on the [SubRip wikipedia article](http://en.wikipedia.org/wiki/SubRip).
