@@ -12,7 +12,7 @@ the commands are sane before any expensive extraction operations are executed.
 Why?
 ----
 I'm inspired by the old [Arnold Schwarzenegger soundboards](http://www.ebaumsworld.com/soundboards/play/1879/)
-I heard people use in [prank phone calls](http://www.youtube.com/watch?v=BwSKulVBaQg).
+people used to use in [prank phone calls](http://www.youtube.com/watch?v=BwSKulVBaQg).
 
 I like the idea of doing what was done with soundboards with movies. I imagine
 friends gathering around a projector taking turns playing the role of a character
