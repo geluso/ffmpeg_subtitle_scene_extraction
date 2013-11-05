@@ -17,8 +17,19 @@ I heard people use in [prank phone calls](http://www.youtube.com/watch?v=BwSKulV
 I like the idea of doing what was done with soundboards with movies. I imagine
 friends gathering around a projector taking turns playing the role of a character
 by puppeteering their cinematic appearances. That, or joining public video chats,
-or chat roulletes, and broadcasting a puppeted feed of the character instead of a
-self. So this program is a first step toward those ends.
+or chat roulletes, and broadcasting a puppeted feed of the character. So this
+program is a first step toward those ends.
+
+Also, some funny compilations can come out of chopping up a video. Here's one where
+a character in Moonrise Kingdom narrates the credits, identifying instruments playing
+in an orchestral arrangement. The original credits include breaks in the narration
+while each instrument plays a bit of a solo, but this movie strips all elegance from
+the piece and lets us see all the instruments listed as quickly as they are named. It
+is a silly piece that wouldn't be worth noting if not for the fact that it was so easy
+to create after the clips had all already been split up by their subtitles. A real
+diamond found in a rough that was only waiting to be cut with the right tool!
+
+[Moonrise Kingdom Orchestral Credits (Abridged)](http://www.youtube.com/watch?v=wFQKHNaO4-I)
 
 An Aside: Intentional Mistakes in Cartography
 -----------------------------------
