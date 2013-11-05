@@ -29,7 +29,7 @@ is a silly piece that wouldn't be worth noting if not for the fact that it was s
 to create after the clips had all already been split up by their subtitles. A real
 diamond found in a rough that was only waiting to be cut with the right tool!
 
-[Moonrise Kingdom Orchestral Credits (Abridged)](http://www.youtube.com/watch?v=wFQKHNaO4-I)
+Watch it: [Moonrise Kingdom Orchestral Credits (Abridged)](http://www.youtube.com/watch?v=wFQKHNaO4-I)
 
 An Aside: Intentional Mistakes in Cartography
 -----------------------------------
