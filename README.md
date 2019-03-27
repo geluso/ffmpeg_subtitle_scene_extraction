@@ -17,7 +17,7 @@ people used to use in [prank phone calls](http://www.youtube.com/watch?v=BwSKulV
 I like the idea of doing what was done with soundboards with movies. I imagine
 friends gathering around a projector taking turns playing the role of a character
 by puppeteering their cinematic appearances. That, or joining public video chats,
-or chat roulletes, and broadcasting a puppeted feed of the character. So this
+or chat roulettes, and broadcasting a puppeted feed of the character. So this
 program is a first step toward those ends.
 
 Also, some funny compilations can come out of chopping up a video. Here's one where
@@ -53,7 +53,7 @@ The character becomes obvious when diffing two subtitle files:
 The characters "fl" in moonrise.srt are replaced by a strange unicode character "ﬂ"
 in moonrise_marked.srt. These strange unicode characters are known to appear in
 scammy URLs trying to mimic legitimate websites, "flaypal.com" vs "ﬂaypal.com,"
-but why should they appear in a subtitles file? The answer, I beleive, lies in
+but why should they appear in a subtitles file? The answer, I believe, lies in
 cartography.
 
 The word on the street is that ancient, and medieval, and renaissance, and colonial,
@@ -95,12 +95,12 @@ and execute it:
 Note that the commands alternate between extracting a clip that has a subtitle
 and a clip that has no subtitle. This ensures that the entire movie is broken
 into clips, whether that portion of the movie was showing a subtitle or not.
-The clips without subtitles are usually longer scenic sequenes without dialogue.
+The clips without subtitles are usually longer scenic sequences without dialogue.
 
 Clips with subtitles will include the sequence number of the subtitle and the
 subtitle text in their filename.
 
-Clips without subtitles will have a seuqnce number equal to one less than the subtitle
+Clips without subtitles will have a sequence number equal to one less than the subtitle
 appearing after them and will all be named "zzz," as if the actors are taking naps
 between dialogue.
 
@@ -127,7 +127,7 @@ Here are the abstract components of the entry:
 
 The subtitle_sequence_number should be an int and is used to keep the extracted
 scenes in order. The timestamp_start and timestamp_end represent when the subtitle
-should appear on the screen and when it should disappear. These time are seperated
+should appear on the screen and when it should disappear. These time are separated
 by the --> symbol.
 
 Each timestamp is of the form:
