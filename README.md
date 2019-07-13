@@ -60,11 +60,11 @@ The word on the street is that ancient, and medieval, and renaissance, and colon
 and modern, and even digital map makers would sometimes intentionally include tiny
 errors in their maps to protect their copyright. If these errors ever appeared in
 another unauthorized map then they could make the case that the other map copied
-all of their work, including the bogus errors, from their own maps. Though I know
-of no formal word to describe these errors (though I'd bet German has a name for
-them) I'm convinced whoever originally created the subtitle file inserted this error
-intentionally to see how far their work would spread. The pirate movie subtitle
-community surely must be as proud and territorial as any cartography community.
+all of their work, including the bogus errors, from their own maps. Broadly known as 
+[fictitious entries](https://en.wikipedia.org/wiki/Fictitious_entry), i'm convinced 
+whoever originally created the subtitle file inserted this error intentionally to see 
+how far their work would spread. The pirate movie subtitle community surely must be 
+as proud and territorial as any cartography community.
 
 I only noticed and discovered this error because I wasn't originally parsing the
 file with the proper text encoding and the program would mysteriously crash when
